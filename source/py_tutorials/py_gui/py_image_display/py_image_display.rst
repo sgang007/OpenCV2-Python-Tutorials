@@ -47,6 +47,7 @@ Use the function **cv2.imshow()** to display an image in a window. The window au
 First argument is a window name which is a string. second argument is our image. You can create as many windows as you wish, but with different window names.
 ::
     
+    cv2.startWindowThread()
     cv2.imshow('image',img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
